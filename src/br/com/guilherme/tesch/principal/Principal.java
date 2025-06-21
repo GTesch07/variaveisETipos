@@ -11,5 +11,11 @@ public class Principal {
         //conversão explicita
         int alturaEmCentimetros = (int) (alturaEmMetros * 100);
         System.out.println("Altura em centimetros: "+alturaEmCentimetros);
+
+        if(quantidadePassos < 1000){
+            String sugestao = "Sugiro que você tente aumentar a meta!";
+
+            System.out.println(sugestao);
+        }
     }
 }
